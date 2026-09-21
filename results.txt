@@ -1,0 +1,15 @@
+20 runs of 180 s; camera fixes in 45% of frames
+seed 0: markers seen per frame: {0: 208, 1: 700, 2: 799, 3: 93}
+                              median       RMS       max     final   (m, median over runs)
+dead reckoning                 27.71     37.27     80.77     80.77
+camera only                     2.25      6.31     18.71      0.80
+EKF, no bias state              1.68      2.80     10.18      1.75
+EKF                             0.08      0.30      1.92      0.04
+EKF, bearing not wrapped     1060.71   1490.45   2880.92   2880.92
+seed 0: final gyro bias estimate 0.0201 rad/s (true 0.02)
+seed 0: EKF x error inside its own 2-sigma 90% of the time
+seed 0: dead reckoning             error at 30 s 11.05 m, at 180 s 80.92 m
+seed 0: camera only                error at 30 s 4.08 m, at 180 s 0.79 m
+seed 0: EKF, no bias state         error at 30 s 1.69 m, at 180 s 1.79 m
+seed 0: EKF                        error at 30 s 0.06 m, at 180 s 0.06 m
+seed 0: EKF, bearing not wrapped   error at 30 s 23.50 m, at 180 s 2862.44 m
