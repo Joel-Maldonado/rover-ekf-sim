@@ -37,7 +37,8 @@ EKF                             0.08      0.30      1.92      0.04
 EKF, bearing not wrapped     1060.71   1490.45   2880.92   2880.92
 ```
 
-The full output is in [results.txt](results.txt).
+The full output is in [results.txt](results.txt). I wrote up what's going on
+in [Two Bad Sensors and a Kalman Filter](https://www.joelmr.com/blog/two-bad-sensors-and-a-kalman-filter/).
 
 ## License
 
